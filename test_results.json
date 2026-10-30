@@ -1,0 +1,886 @@
+{
+ "summary": {
+  "total": 78,
+  "match": 62,
+  "within": 3,
+  "differs": 6,
+  "skipped": 7,
+  "checksPassed": 9,
+  "checks": 9
+ },
+ "rows": [
+  {
+   "id": "D1",
+   "loc": "Abstract; 4.2",
+   "label": "Raw order lines",
+   "thesis": 180519,
+   "kind": "exact",
+   "value": 180519,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "D2",
+   "loc": "3.4.1; 4.2",
+   "label": "Order lines after cleaning",
+   "thesis": 170872,
+   "kind": "exact",
+   "value": 170872,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "D3",
+   "loc": "Abstract; 4.2",
+   "label": "Order lines after Sept. 2017 cutoff",
+   "thesis": 162775,
+   "kind": "exact",
+   "value": 162775,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "D4",
+   "loc": "3.4.1; 4.2",
+   "label": "Orders after cutoff",
+   "thesis": 54246,
+   "kind": "exact",
+   "value": 54246,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "D5",
+   "loc": "Abstract; 4.3",
+   "label": "Weeks in analysis window",
+   "thesis": 144,
+   "kind": "exact",
+   "value": 144,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "D6",
+   "loc": "3.3.3; 4.3",
+   "label": "Training weeks",
+   "thesis": 115,
+   "kind": "exact",
+   "value": 115,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "D7",
+   "loc": "Abstract; 4.5",
+   "label": "Product-region combinations",
+   "thesis": 1443,
+   "kind": "exact",
+   "value": 1443,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-1",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-02",
+   "thesis": 4611,
+   "kind": "exact",
+   "value": 4611,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-2",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-03",
+   "thesis": 5071,
+   "kind": "exact",
+   "value": 5071,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-3",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-04",
+   "thesis": 4926,
+   "kind": "exact",
+   "value": 4926,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-4",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-05",
+   "thesis": 4994,
+   "kind": "exact",
+   "value": 4994,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-5",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-06",
+   "thesis": 4674,
+   "kind": "exact",
+   "value": 4674,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-6",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-07",
+   "thesis": 4984,
+   "kind": "exact",
+   "value": 4984,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-7",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-08",
+   "thesis": 5059,
+   "kind": "exact",
+   "value": 5059,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-8",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-09",
+   "thesis": 4880,
+   "kind": "exact",
+   "value": 4880,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-9",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-10",
+   "thesis": 2145,
+   "kind": "exact",
+   "value": 2145,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-10",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-11",
+   "thesis": 1934,
+   "kind": "exact",
+   "value": 1934,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-11",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2017-12",
+   "thesis": 2009,
+   "kind": "exact",
+   "value": 2009,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T41-12",
+   "loc": "Table 4.1",
+   "label": "Order lines, 2018-01",
+   "thesis": 2009,
+   "kind": "exact",
+   "value": 2009,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T42-Naive-mae",
+   "loc": "Table 4.2",
+   "label": "Naive MAE",
+   "thesis": 111.07,
+   "kind": "exact",
+   "value": 111.07,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T42-Naive-rmse",
+   "loc": "Table 4.2",
+   "label": "Naive RMSE",
+   "thesis": 142.03,
+   "kind": "exact",
+   "value": 142.03,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T42-Naive-mape",
+   "loc": "Table 4.2",
+   "label": "Naive MAPE (%)",
+   "thesis": 4.87,
+   "kind": "exact",
+   "value": 4.87,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T42-ARIMA-mae",
+   "loc": "Table 4.2",
+   "label": "ARIMA MAE",
+   "thesis": 107.43,
+   "kind": "tol",
+   "tol": 3,
+   "note": "statsmodels stops at a lower-likelihood optimum in several windows; the rerun maximizes the likelihood",
+   "diff": null,
+   "status": "skipped"
+  },
+  {
+   "id": "T42-ARIMA-rmse",
+   "loc": "Table 4.2",
+   "label": "ARIMA RMSE",
+   "thesis": 139.8,
+   "kind": "tol",
+   "tol": 3,
+   "note": "statsmodels stops at a lower-likelihood optimum in several windows; the rerun maximizes the likelihood",
+   "diff": null,
+   "status": "skipped"
+  },
+  {
+   "id": "T42-ARIMA-mape",
+   "loc": "Table 4.2",
+   "label": "ARIMA MAPE (%)",
+   "thesis": 4.75,
+   "kind": "tol",
+   "tol": 0.1,
+   "note": "statsmodels stops at a lower-likelihood optimum in several windows; the rerun maximizes the likelihood",
+   "diff": null,
+   "status": "skipped"
+  },
+  {
+   "id": "T42-ES-mae",
+   "loc": "Table 4.2",
+   "label": "ES MAE",
+   "thesis": 112.17,
+   "kind": "tol",
+   "tol": 4,
+   "note": "statsmodels stops at a local SSE minimum in the window ending week 130; the thesis value also differs from a rerun of the student code (111.99 / 147.45 / 4.97)",
+   "value": 114.2,
+   "diff": 2.030000000000001,
+   "status": "within"
+  },
+  {
+   "id": "T42-ES-rmse",
+   "loc": "Table 4.2",
+   "label": "ES RMSE",
+   "thesis": 147.49,
+   "kind": "tol",
+   "tol": 4,
+   "note": "statsmodels stops at a local SSE minimum in the window ending week 130; the thesis value also differs from a rerun of the student code (111.99 / 147.45 / 4.97)",
+   "value": 148.71,
+   "diff": 1.2199999999999989,
+   "status": "within"
+  },
+  {
+   "id": "T42-ES-mape",
+   "loc": "Table 4.2",
+   "label": "ES MAPE (%)",
+   "thesis": 4.98,
+   "kind": "tol",
+   "tol": 0.15,
+   "note": "statsmodels stops at a local SSE minimum in the window ending week 130; the thesis value also differs from a rerun of the student code (111.99 / 147.45 / 4.97)",
+   "value": 5.06,
+   "diff": 0.07999999999999918,
+   "status": "within"
+  },
+  {
+   "id": "T42-XGBoost-mae",
+   "loc": "Table 4.2",
+   "label": "XGBoost MAE",
+   "thesis": 134.17,
+   "kind": "exact",
+   "value": 134.17,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T42-XGBoost-rmse",
+   "loc": "Table 4.2",
+   "label": "XGBoost RMSE",
+   "thesis": 170.98,
+   "kind": "exact",
+   "value": 170.98,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T42-XGBoost-mape",
+   "loc": "Table 4.2",
+   "label": "XGBoost MAPE (%)",
+   "thesis": 5.98,
+   "kind": "exact",
+   "value": 5.98,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T42-LSTM-mae",
+   "loc": "Table 4.2",
+   "label": "LSTM MAE",
+   "thesis": 103.05,
+   "kind": "stoch",
+   "tol": 6,
+   "note": "different random-number streams than TensorFlow; compare the seed spread (SD 0.05)",
+   "diff": null,
+   "status": "skipped"
+  },
+  {
+   "id": "T42-LSTM-rmse",
+   "loc": "Table 4.2",
+   "label": "LSTM RMSE",
+   "thesis": 137.23,
+   "kind": "stoch",
+   "tol": 6,
+   "note": "different random-number streams than TensorFlow; compare the seed spread (SD 0.05)",
+   "diff": null,
+   "status": "skipped"
+  },
+  {
+   "id": "T42-LSTM-mape",
+   "loc": "Table 4.2",
+   "label": "LSTM MAPE (%)",
+   "thesis": 4.59,
+   "kind": "stoch",
+   "tol": 0.25,
+   "note": "different random-number streams than TensorFlow; compare the seed spread (SD 0.05)",
+   "diff": null,
+   "status": "skipped"
+  },
+  {
+   "id": "F44-sd",
+   "loc": "4.4 text",
+   "label": "LSTM seed MAPE SD (pp)",
+   "thesis": 0.05,
+   "kind": "stoch",
+   "tol": 0.05,
+   "diff": null,
+   "status": "skipped"
+  },
+  {
+   "id": "C1",
+   "loc": "4.5",
+   "label": "Median annual demand (units)",
+   "thesis": 11.6,
+   "kind": "exact",
+   "value": 11.6,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C2",
+   "loc": "4.5",
+   "label": "Mean annual demand (units)",
+   "thesis": 88.9,
+   "kind": "exact",
+   "value": 88.9,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C3",
+   "loc": "4.5",
+   "label": "Maximum annual demand (units)",
+   "thesis": 4172,
+   "kind": "exact",
+   "value": 4172,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C4",
+   "loc": "Abstract; 4.5; Table 4.3",
+   "label": "Separate Total Cost ($)",
+   "thesis": 367684,
+   "kind": "exact",
+   "value": 367684,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C5",
+   "loc": "4.6; Table 4.3",
+   "label": "Consolidated Total Cost ($)",
+   "thesis": 355822,
+   "kind": "exact",
+   "value": 355822,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C6",
+   "loc": "Abstract; 4.7",
+   "label": "Savings ($)",
+   "thesis": 11861,
+   "kind": "exact",
+   "value": 11861,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C7",
+   "loc": "Abstract; 4.7",
+   "label": "Savings (%)",
+   "thesis": 3.23,
+   "kind": "exact",
+   "value": 3.23,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C8",
+   "loc": "4.6",
+   "label": "Average order quantity, separate",
+   "thesis": 9.9,
+   "kind": "exact",
+   "value": 9.9,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C9",
+   "loc": "4.6",
+   "label": "Average order quantity, joint",
+   "thesis": 10.6,
+   "kind": "exact",
+   "value": 10.6,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C10",
+   "loc": "4.6",
+   "label": "Pairs choosing Standard Class",
+   "thesis": 1443,
+   "kind": "exact",
+   "value": 1443,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C11",
+   "loc": "4.7",
+   "label": "Median pair saving (%)",
+   "thesis": 3.21,
+   "kind": "exact",
+   "value": 3.21,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "C12",
+   "loc": "4.7",
+   "label": "Largest pair saving (%)",
+   "thesis": 4.41,
+   "kind": "exact",
+   "value": 4.41,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T43-1",
+   "loc": "Table 4.3",
+   "label": "Inventory cost, conventional ($)",
+   "thesis": 166775,
+   "kind": "exact",
+   "value": 166775,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T43-2",
+   "loc": "Table 4.3",
+   "label": "Inventory cost, joint ($)",
+   "thesis": 167101,
+   "kind": "exact",
+   "value": 167101,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T43-3",
+   "loc": "Table 4.3",
+   "label": "Transportation cost, conventional ($)",
+   "thesis": 200909,
+   "kind": "exact",
+   "value": 200909,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T43-4",
+   "loc": "Table 4.3",
+   "label": "Transportation cost, joint ($)",
+   "thesis": 188721,
+   "kind": "exact",
+   "value": 188721,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T43-5",
+   "loc": "Table 4.3",
+   "label": "Inventory change ($)",
+   "thesis": 327,
+   "kind": "exact",
+   "value": 327,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T43-6",
+   "loc": "Table 4.3",
+   "label": "Transportation change ($)",
+   "thesis": -12188,
+   "kind": "exact",
+   "value": -12188,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T43-7",
+   "loc": "Table 4.3",
+   "label": "Inventory share, conventional (%)",
+   "thesis": 45.4,
+   "kind": "exact",
+   "value": 45.4,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T43-8",
+   "loc": "Table 4.3",
+   "label": "Inventory share, joint (%)",
+   "thesis": 47,
+   "kind": "exact",
+   "value": 47,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-h1",
+   "loc": "Table 4.4",
+   "label": "Savings at holding rate 10%",
+   "thesis": 3.23,
+   "kind": "exact",
+   "value": 3.23,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-h2",
+   "loc": "Table 4.4",
+   "label": "Savings at holding rate 15%",
+   "thesis": 3.23,
+   "kind": "exact",
+   "value": 3.23,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-h3",
+   "loc": "Table 4.4",
+   "label": "Savings at holding rate 20%",
+   "thesis": 3.23,
+   "kind": "exact",
+   "value": 3.23,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-h4",
+   "loc": "Table 4.4",
+   "label": "Savings at holding rate 25%",
+   "thesis": 3.23,
+   "kind": "exact",
+   "value": 3.23,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-h5",
+   "loc": "Table 4.4",
+   "label": "Savings at holding rate 30%",
+   "thesis": 3.23,
+   "kind": "exact",
+   "value": 3.23,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-s5",
+   "loc": "Table 4.4",
+   "label": "Savings at ordering cost $5",
+   "thesis": 11.82,
+   "kind": "exact",
+   "value": 11.82,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-s10",
+   "loc": "Table 4.4",
+   "label": "Savings at ordering cost $10",
+   "thesis": 5.46,
+   "kind": "exact",
+   "value": 5.46,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-s15",
+   "loc": "Table 4.4",
+   "label": "Savings at ordering cost $15",
+   "thesis": 3.23,
+   "kind": "exact",
+   "value": 3.23,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-s20",
+   "loc": "Table 4.4",
+   "label": "Savings at ordering cost $20",
+   "thesis": 2.15,
+   "kind": "exact",
+   "value": 2.15,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-s25",
+   "loc": "Table 4.4",
+   "label": "Savings at ordering cost $25",
+   "thesis": 1.54,
+   "kind": "exact",
+   "value": 1.54,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-s30",
+   "loc": "Table 4.4",
+   "label": "Savings at ordering cost $30",
+   "thesis": 1.16,
+   "kind": "exact",
+   "value": 1.16,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-m0.5",
+   "loc": "Table 4.4",
+   "label": "Savings at shipping-rate ×0.5",
+   "thesis": 2.24,
+   "kind": "exact",
+   "value": 2.24,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-m0.75",
+   "loc": "Table 4.4",
+   "label": "Savings at shipping-rate ×0.75",
+   "thesis": 2.81,
+   "kind": "exact",
+   "value": 2.81,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-m1",
+   "loc": "Table 4.4",
+   "label": "Savings at shipping-rate ×1",
+   "thesis": 3.23,
+   "kind": "exact",
+   "value": 3.23,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-m1.25",
+   "loc": "Table 4.4",
+   "label": "Savings at shipping-rate ×1.25",
+   "thesis": 3.55,
+   "kind": "exact",
+   "value": 3.55,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-m1.5",
+   "loc": "Table 4.4",
+   "label": "Savings at shipping-rate ×1.5",
+   "thesis": 3.81,
+   "kind": "exact",
+   "value": 3.81,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "T44-m2",
+   "loc": "Table 4.4",
+   "label": "Savings at shipping-rate ×2",
+   "thesis": 4.19,
+   "kind": "exact",
+   "value": 4.19,
+   "diff": 0,
+   "status": "match"
+  },
+  {
+   "id": "F46-Low-n",
+   "loc": "4.10; Fig. 4.6",
+   "label": "Low variability: combinations",
+   "thesis": 742,
+   "kind": "exact",
+   "note": "Appendix A.11 code gives 765 / 523 / 155; the thesis counts cannot be produced from the published code",
+   "value": 765,
+   "diff": 23,
+   "status": "differs"
+  },
+  {
+   "id": "F46-Low-s",
+   "loc": "4.10; Fig. 4.6",
+   "label": "Low variability: savings (%)",
+   "thesis": 3.25,
+   "kind": "exact",
+   "note": "follows from the different group membership above",
+   "value": 3.24,
+   "diff": -0.009999999999999787,
+   "status": "differs"
+  },
+  {
+   "id": "F46-Moderate-n",
+   "loc": "4.10; Fig. 4.6",
+   "label": "Moderate variability: combinations",
+   "thesis": 540,
+   "kind": "exact",
+   "note": "Appendix A.11 code gives 765 / 523 / 155; the thesis counts cannot be produced from the published code",
+   "value": 523,
+   "diff": -17,
+   "status": "differs"
+  },
+  {
+   "id": "F46-Moderate-s",
+   "loc": "4.10; Fig. 4.6",
+   "label": "Moderate variability: savings (%)",
+   "thesis": 3.17,
+   "kind": "exact",
+   "note": "follows from the different group membership above",
+   "value": 3.18,
+   "diff": 0.010000000000000231,
+   "status": "differs"
+  },
+  {
+   "id": "F46-High-n",
+   "loc": "4.10; Fig. 4.6",
+   "label": "High variability: combinations",
+   "thesis": 161,
+   "kind": "exact",
+   "note": "Appendix A.11 code gives 765 / 523 / 155; the thesis counts cannot be produced from the published code",
+   "value": 155,
+   "diff": -6,
+   "status": "differs"
+  },
+  {
+   "id": "F46-High-s",
+   "loc": "4.10; Fig. 4.6",
+   "label": "High variability: savings (%)",
+   "thesis": 3.13,
+   "kind": "exact",
+   "note": "follows from the different group membership above",
+   "value": 3.12,
+   "diff": -0.009999999999999787,
+   "status": "differs"
+  }
+ ],
+ "checks": [
+  {
+   "id": "K1",
+   "label": "Separate total = inventory + transportation",
+   "ok": true
+  },
+  {
+   "id": "K2",
+   "label": "Joint total = inventory + transportation",
+   "ok": true
+  },
+  {
+   "id": "K3",
+   "label": "Joint cost never exceeds separate cost (every pair)",
+   "ok": true
+  },
+  {
+   "id": "K4",
+   "label": "Per-pair saving equals the EOQ closed form (max error < 1e-9 pp)",
+   "ok": true
+  },
+  {
+   "id": "K5",
+   "label": "Savings % is invariant to the holding rate (identity)",
+   "ok": true
+  },
+  {
+   "id": "K6",
+   "label": "True joint EOQ costs no more than the thesis joint model",
+   "ok": true
+  },
+  {
+   "id": "K7",
+   "label": "Variability groups cover every combination once",
+   "ok": true
+  },
+  {
+   "id": "K8",
+   "label": "Weekly series sums to units in window",
+   "ok": true
+  },
+  {
+   "id": "K9",
+   "label": "EOQ minimizes (D/Q)S + (Q/2)H on a grid (pair 1)",
+   "ok": true
+  }
+ ],
+ "metrics": {
+  "Naive": {
+   "mae": 111.06896551724138,
+   "rmse": 142.0314438231294,
+   "mape": 4.865118399108403
+  },
+  "ES": {
+   "mae": 114.20136958408769,
+   "rmse": 148.7133020752585,
+   "mape": 5.064372243453655
+  },
+  "XGBoost": {
+   "mae": 134.17424641070664,
+   "rmse": 170.98394747238962,
+   "mape": 5.979640872952147
+  }
+ },
+ "dm": null,
+ "trueJoint": {
+  "sep": 367683.5777847569,
+  "joint": 307462.43703154934,
+  "sepInv": 166774.6420815252,
+  "sepTr": 200908.93570323204,
+  "jInv": 199152.29857386058,
+  "jTr": 108310.13845768922,
+  "savings": 60221.140753207554,
+  "savingsPct": 16.378523380356462
+ }
+}
